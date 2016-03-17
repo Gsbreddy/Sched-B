@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.saibharath.cse2017.ChangettFragment">
+
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/welcome"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="24dp"
+        android:textColor="@color/lbl_name"
+
+        android:id="@+id/name"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="13dp"
+
+        android:id="@+id/email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        />
+
+
+    <Spinner
+        android:id="@+id/subtimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/subtimes"
+        android:layout_margin="10dp" />
+    <Spinner
+        android:id="@+id/subnames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/subnames"
+        android:layout_margin="10dp" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendbutton"
+        android:text="Update"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clearbutton"
+        android:text="Clear"/>
+
+
+
+
+
+
+
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="SEND"
+        android:id="@+id/btnLogout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@color/btn_logut_bg"
+        android:layout_marginTop="40dip"/>
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titletext"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="#6218e1"
+        android:layout_margin="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classes Bunked:"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#e11010" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bunkview"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#e11010"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classes held:"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#1551d3" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/totalview"
+
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#1551d3"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current% :"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#5c0659" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/per"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#5c0659" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit"
+        android:text="Edit"
+        android:layout_marginTop="25dp"
+        android:background="@color/btn_logut_bg"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff" />
+</LinearLayout>
